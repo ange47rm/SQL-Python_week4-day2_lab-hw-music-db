@@ -49,9 +49,9 @@ album_repository.create (album_3) # TEST PASSED (3 albums created)
 # album = album_repository.select (1)
 # print (album.__dict__) -- TEST PASSED (finds album with ID 1, Illmatic)
 
-all_albums = album_repository.select_all()
-for album in all_albums:
-    print (album.__dict__)
+# all_albums = album_repository.select_all()
+# for album in all_albums:
+#     print (album.__dict__) -- TEST PASSED (lists all 3 album)
 
 
 
