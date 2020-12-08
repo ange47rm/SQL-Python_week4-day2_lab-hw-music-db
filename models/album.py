@@ -1,4 +1,4 @@
-from artist import Artist
+from models.artist import Artist
 
 class Album ():
 
